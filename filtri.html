@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Autogestite - Image Processing</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <input type="file" id="inputImage">
+        <br/>
+        <canvas id="canvasImage"></canvas>
+
+        <br/>
+
+        <button onclick="filtro('ripristina')">Ripristina</button>
+
+        <br/><br/>
+
+        <button onclick="filtro('grayscale')">Scala di grigi</button>
+        <button onclick="filtro('canale_rosso')">Canale Rosso</button>
+        <button onclick="filtro('canale_verde')">Canale Verde</button>
+        <button onclick="filtro('canale_blu')">Canale Blu</button>
+        <button onclick="filtro('negativo')">Negativo</button>
+        <button onclick="filtro('contrasto')">Contrasto</button>
+
+        <br/><br/>
+        
+        <button onclick="filtro('simmetria_orizzontale')">Simmetria Orizzontale</button>
+        <button onclick="filtro('simmetria_verticale')">Simmetria Verticale</button>
+        <button onclick="filtro('simmetria_diagonale')">Simmetria Diagonale</button>
+
+        <br/><br/>
+
+        <button onclick="filtro('sharpen')">Sharpen</button>
+        <button onclick="filtro('blur')">Blur</button>
+        <button onclick="filtro('margini_orizzontali')">Margini orizzontali</button>
+        <button onclick="filtro('margini_verticali')">Margini Verticali</button>
+        <button onclick="filtro('margini')">Margini</button>
+
+        
+        <br/><br/>
+
+        <button onclick="filtro('mio_filtro_1')">Mio Filtro 1</button>
+        <button onclick="filtro('mio_filtro_2')">Mio Filtro 2</button>
+        <button onclick="filtro('mio_filtro_3')">Mio Filtro 3</button>
+        <button onclick="filtro('mio_filtro_4')">Mio Filtro 4</button>
+
+        <br/>
+
+        
+        <canvas id="canvasFilter"></canvas>
+
+        
+        <script src="scripts/filtri/scala_grigi.js"></script>
+        <script src="scripts/filtri/canale_rosso.js"></script>
+        <script src="scripts/filtri/canale_verde.js"></script>
+        <script src="scripts/filtri/canale_blu.js"></script>
+        <script src="scripts/filtri/negativo.js"></script>
+        <script src="scripts/filtri/contrasto.js"></script>
+
+        <script src="scripts/filtri/simmetria_orizzontale.js"></script>
+        <script src="scripts/filtri/simmetria_verticale.js"></script>
+        <script src="scripts/filtri/simmetria_diagonale.js"></script>
+
+        <script src="scripts/filtri/sharpen.js"></script>
+        <script src="scripts/filtri/blur.js"></script>
+        <script src="scripts/filtri/margini_orizzontali.js"></script>
+        <script src="scripts/filtri/margini_verticali.js"></script>
+        <script src="scripts/filtri/margini.js"></script>
+        
+        <script src="scripts/filtri/mio_filtro_1.js"></script>
+        <script src="scripts/filtri/mio_filtro_2.js"></script>
+        <script src="scripts/filtri/mio_filtro_3.js"></script>
+        <script src="scripts/filtri/mio_filtro_4.js"></script>
+
+        <script src="scripts/helper.js"></script>
+        <script src="scripts/filtri.js"></script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+}
+
+#bw_bitmap {
+    margin: 20px;
+}
+
+.bitmap_column {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.black {
+    background-color: black;
+}
+
+#grayscale_color, #rgb_color, #rgba_color {
+    margin: 20px;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+#canvasImage {
+    margin: 20px;
+    border: 1px solid black;
+}
+
+#canvasFilter {
+    margin: 20px;
+}
+
+#canvasBitmap {
+    margin: 20px;
+    border: 1px solid black;
+    height: 100px;
+}
